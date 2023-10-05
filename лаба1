@@ -1,0 +1,6 @@
+import pandas as pd
+import numpy as np
+
+rnd = np.random.default_rng()
+a=rnd.integers(0,8,(3,3))
+print(a)
